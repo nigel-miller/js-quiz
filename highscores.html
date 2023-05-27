@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>High Scores</title>
+<meta charset = "UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+
+<!-- Google Icons 'Psycology Alt' icon -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<!-- Font Awesome 'Crown' icon -->
+<script src = "https://kit.fontawesome.com/222a2215a4.js" crossorigin = "anonymous"></script>
+
+<link rel = "stylesheet" href = "styles/style.css">
+<link rel = "stylesheet" href = "styles/highscores.css">
+
+
+</head>
+<body>
+
+<nav>
+    <div class = "logo">Organic Gardening Quiz<i class="material-symbols-outlined" style="font-size:24px;"></i></div>
+    <input type = "checkbox" id = "checkbox">
+    <label for = "checkbox" id = "icon">
+        <!-- Heroicons 'Bars3' icon -->
+        <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+        </svg>
+    </label>
+    
+    <ul>
+        <li><a href = "index.html">Home</a></li>
+        <li><a href = "game.html">Game</a></li>
+        <li><a href = "#" class = "active">High Scores</a></li>
+        <li><a href = "https://nigel-miller.github.io/personal-profile/" target = "_blank">Personal Profile | Nigel Miller</a></li>
+    </ul>
+</nav>
+
+
+<div class="container">
+    <div id="highScores" class="flex-center flex-column">
+        <h1 id="finalScore">Leaderboard</h1>
+        <ul id="highScoresList"></ul>
+
+        <a href="index.html" class = "btn">Go Home<i class="fas fa-home"></i></a>
+    </div>
+</div>
+
+
+<footer>
+    <p><small>Email: nigelmiller72@gmx.com | &Psi; Nigel Miller 2023</small></p>
+</footer>
+
+<script src = "scripts/highscores.js"></script>
+</body>
+</html>

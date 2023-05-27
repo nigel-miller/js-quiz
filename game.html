@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>Quiz Page</title>
+<meta charset = "UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+
+<!-- Google Icons 'Psycology Alt' icon -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<!-- Font Awesome 'Crown' icon -->
+<script src = "https://kit.fontawesome.com/222a2215a4.js" crossorigin = "anonymous"></script>
+
+<link rel = "stylesheet" href = "styles/style.css">
+<link rel = "stylesheet" href = "styles/game.css">
+
+</head>
+<body>
+
+<nav>
+    <div class = "logo">Organic Gardening Quiz<i class="material-symbols-outlined" style="font-size:24px;"></i></div>
+    <input type = "checkbox" id = "checkbox">
+    <label for = "checkbox" id = "icon">
+        <!-- Heroicons 'Bars3' icon -->
+        <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+        </svg>
+    </label>
+    
+    <ul>
+        <li><a href = "index.html">Home</a></li>
+        <li><a href = "#" class = "active">Game</a></li>
+        <li><a href = "highscores.html">High Scores</a></li>
+        <li><a href = "https://nigel-miller.github.io/personal-profile/" target = "_blank">Personal Profile | Nigel Miller</a></li>
+    </ul>
+</nav>
+    
+      
+<div class="container">
+    <div id="game" class="justify-center flex-column">
+        <div id="hud">
+            <div class="hud-item">
+                <p id="progressText" class = "hud-prefix">
+                    Question
+                </p>
+                <div id="progressBar">
+                    <div id="progressBarFull"></div>
+                </div>
+            </div>
+
+            <div class="hud-item">
+                <p class="hud-prefix">
+                    Score
+                </p>
+                <h1 class="hud-main-text" id="score">
+                    0
+                </h1>
+            </div>
+        </div>
+
+        <h1 id="question">What is the answer to this question?</h1>
+        <div class="choice-container">
+            <p class="choice-prefix">A</p>
+            <p class="choice-text" data-number = "1">Choice</p>
+        </div>
+
+        <div class="choice-container">
+            <p class="choice-prefix">B</p>
+            <p class="choice-text" data-number = "2">Choice</p>
+        </div>
+
+        <div class="choice-container">
+            <p class="choice-prefix">C</p>
+            <p class="choice-text" data-number = "3">Choice</p>
+        </div>
+
+        <div class="choice-container">
+            <p class="choice-prefix">D</p>
+            <p class="choice-text" data-number = "4">Choice</p>
+        </div>
+    </div>
+</div>
+
+
+
+<footer>
+    <p><small>Email: nigelmiller72@gmx.com | &Psi; Nigel Miller 2023</small></p>
+</footer>
+
+<script src = "scripts/game.js"></script>
+</body>
+</html>
