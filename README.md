@@ -1,4 +1,4 @@
-# SUPER QUIZ
+# ORGANIC GARDENING QUIZ
 
 ## Introduction
 This is my second website.
@@ -16,3 +16,8 @@ I was required to produce a multi-page JavaScript Quiz website for my Front End 
 - Responsive Navigation Bar based on YouTube video by Sofiullah Chowdhury (Mr Coder), Codepen.io, 'How to Create A Pure CSS Responsive Navbar', https://www.youtube.com/watch?v=bRzhXfbaXng.
 
 - JS Quiz design based on YouTube video by Brian Design, 'How to Make a Quiz App using HTML CSS Javascript - Vanilla Javascript Project for Beginners Tutorial', https://www.youtube.com/watch?v=f4fB9Xg2JEY.
+
+## Code Validation
+HTML5 - https://validator.w3.org/#validate_by_input
+CSS# - https://jigsaw.w3.org/css-validator/#validate_by_input
+JavaScript - https://extendsclass.com/javascript-fiddle.html
