@@ -66,7 +66,7 @@ let questions = [
     },
 
     {
-        question: 'Mulching is a practice important to organaic gardening, as it promotes...',
+        question: 'Mulching is a practice important to organic gardening, as it promotes...',
         choice1: 'Disease control',
         choice2: 'Weed suppression',
         choice3: 'Slug control',
@@ -102,6 +102,27 @@ let questions = [
     },
 ];
 
+
+
+
+//  From Line 64 and 65 of game.html [temporary insertion of ' id = "myElement1" ']...
+
+/*          <p class="choice-prefix">A</p>
+            <p class="choice-text" data-number = "1" id = "myElement1">Choice</p> 
+
+//  then, Attempt to use getElementById method on choice1 [Line 96 to 105]...
+    {
+        question: 'During composting, microbes Mineralize organic Nitrogen over time, and convert it to plant-useable Nitrogen, in the form of...',
+        choice1: 'Ammonia NH<sub>3</sub> and Nitrite NO<sub>2</sub><sup>-</sup>',
+        choice2: 'Ammonium NH<sub>4</sub><sup>+</sup> and Nitrate NO<sub>3</sub><sup>-</sup>',
+        choice3: 'Nitrogen gas N<sub>2</sub> and Nitric oxide NO',
+        choice4: 'Nitrous oxide N<sub>2</sub>O and Urea CO(NH<sub>2</sub>)<sub>2</sub>',
+        answer: 2,
+    },
+];
+
+document.getElementById("myElement1").innerHTML = 'Ammonia NH<sub>3</sub> and Nitrite NO<sub>2</sub><sup>-</sup>';
+*/
 
 
 
